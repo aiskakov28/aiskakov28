@@ -11,8 +11,8 @@
 ---
 
 ## 🚀 About Me
-- 💻 Currently interning at **Clarity Flo (Palo Alto)** → building **AI-driven contract automation** with Go, FastAPI, PostgreSQL, and AWS Lambda  
-- 📊 Passionate about **scalable systems, ML-powered pipelines, and full-stack apps**  
+- (💼) Currently interning at **Clarity Flo (Palo Alto)** → building **AI-driven contract automation** with Go, FastAPI, PostgreSQL, and AWS Lambda  
+- 🚢 Passionate about **scalable systems, ML-powered pipelines, and full-stack apps**  
 - 🎓 B.A. in **Data Science** (minor in CS) @ University of Rochester  
 - 🏅 Dean’s List | Certificate in **Mathematical Modeling in Economics**  
 
