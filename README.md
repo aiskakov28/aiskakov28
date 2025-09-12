@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I’m Abylay 👋</h1>
-<h3 align="center">SWE Intern @ Clarity Flo | Data Scientist | AI/ML Engineer</h3>
+<h3 align="center">SWE Intern @ Clarity Flo | SWE | Data | ML </h3>
 
 <p align="center">
   <a href="https://abylay-iskakov.com"><img src="https://img.shields.io/badge/🌍 Website-000?style=flat&logo=About.me&logoColor=white" /></a>
@@ -13,7 +13,7 @@
 ## 🚀 About Me
 - 💻 Currently interning at **Clarity Flo (Palo Alto)** → building **AI-driven contract automation** with Go, FastAPI, PostgreSQL, and AWS Lambda  
 - 📊 Passionate about **scalable data pipelines, ML-powered systems, and full-stack apps**  
-- 🎓 B.A. in **Data Science** (minor in CS) @ University of Rochester, GPA: 3.8  
+- 🎓 B.A. in **Data Science** (minor in CS) @ University of Rochester
 - 🏅 Dean’s List | Certificate in **Mathematical Modeling in Economics**  
 
 ---
