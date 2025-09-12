@@ -66,7 +66,7 @@ _Things I’ve built and broken (and built again)_
 
 ---
 
-### 🔬 [SimCityNet](https://github.com/aiskakov28/simcitynet) · Research  
+### 🔬 [SimCityNet](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5369073) · Research  
 **Quantifying Geo-Cultural Bias in AI-Generated Urban Videos**  
 Interpretable embeddings to study how Sora & Kling AI reproduce cityscapes.  
 
@@ -77,7 +77,7 @@ Interpretable embeddings to study how Sora & Kling AI reproduce cityscapes.
 
 ---
 
-### 🌐 [CampusLens.xyz](https://github.com/aiskakov28/campuslens) · Product  
+### 🌐 [CampusLens.xyz](https://campuslens.xyz/) · Product  
 **Real-time campus occupancy & ops insights; AI signals in a fast dashboard**  
 
 **Stack:** React · Next.js · TypeScript · MySQL · gRPC · Docker · Kubernetes · Prefect  
@@ -87,7 +87,7 @@ Interpretable embeddings to study how Sora & Kling AI reproduce cityscapes.
 
 ---
 
-### 🚀 [Krunda.com](https://github.com/aiskakov28/krunda) · Startup  
+### 🚀 [Krunda.com](https://krunda.com/) · Startup  
 **Small-business web + analytics suite with production recommenders**  
 
 **Stack:** Python · TensorFlow Recommenders · FastAPI · Redis · Elasticsearch · Oracle Cloud · Grafana · Optuna  
@@ -97,7 +97,7 @@ Interpretable embeddings to study how Sora & Kling AI reproduce cityscapes.
 
 ---
 
-### 🛠 [Jeli.AI](https://github.com/aiskakov28/jeli) · Tooling  
+### 🛠 [Jeli.AI](https://github.com/aiskakov28/jeli_ai) · Tooling  
 **AI assistant for LinkedIn outreach: drafts, schedules, and triages**  
 
 **Stack:** JavaScript · Next.js · Zustand · HTML · CSS · Playwright (E2E)  
@@ -106,7 +106,7 @@ Interpretable embeddings to study how Sora & Kling AI reproduce cityscapes.
 
 ---
 
-### 📈 [Finance-Dash](https://github.com/aiskakov28/finance-dash) · Analytics  
+### 📈 [Finance-Dash](https://github.com/aiskakov28/Company-Financial-Health-Assessment-Dashboard) · Analytics  
 **Exec-ready KPIs, anomaly detection & cash-flow trends**  
 
 **Stack:** Python · Pandas · dbt · Plotly Dash · PostgreSQL · AWS Lambda · CloudWatch  
@@ -115,7 +115,7 @@ Interpretable embeddings to study how Sora & Kling AI reproduce cityscapes.
 
 ---
 
-### 💡 [BTC Sentiment](https://github.com/aiskakov28/btc-sentiment) · Research  
+### 💡 [BTC Sentiment](https://github.com/aiskakov28/btc_news_sentiment_analysis) · Research  
 **Turning crypto headlines into tradable features**  
 
 **Stack:** Python · Hugging Face Transformers · VADER · Pandas · Streamlit  
