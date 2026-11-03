@@ -1,135 +1,63 @@
-<h1 align="center">Hi, I’m Abylay 👋</h1>
-<h3 align="center"> SWE | Data | ML</h3>
+# Abylay Iskakov
 
-<p align="center">
-  <a href="https://abylay-iskakov.com"><img src="https://img.shields.io/badge/🌍 Website-000?style=flat&logo=About.me&logoColor=white" /></a>
-  <a href="mailto:aiskakov@rochester.edu"><img src="https://img.shields.io/badge/📧 Email-0078D4?style=flat&logo=maildotru&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/abylay-iskakov"><img src="https://img.shields.io/badge/💼 LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
-  <a href="https://github.com/aiskakov28"><img src="https://img.shields.io/github/followers/aiskakov28?label=Follow&style=social" /></a>
-</p>
+Software engineer focused on **distributed systems, databases, and cloud infrastructure**.
 
----
+Software Engineering Intern at **Amazon Web Services** in 2026. I build systems around database infrastructure, concurrency, reliability, and correctness.
 
-## 🙂 About Me
-- 🚢 Passionate about **scalable systems, ML-powered pipelines, and full-stack apps**  
-- 🎓 B.A. in **Data Science** (minor in CS) @ University of Rochester  
+Currently building **[Calve](https://github.com/aiskakov28/calve)**, a Jepsen-style correctness tester for Apache Iceberg REST catalogs. Calve has uncovered concurrency bugs across **Apache Iceberg/Hive, Apache Polaris, Lakekeeper, and Nessie**, with findings leading to upstream reports, fix PRs, and maintainer patches.
+
+[LinkedIn](https://linkedin.com/in/abylay-iskakov) · [Email](mailto:aiskakov@u.rochester.edu)
 
 ---
 
-## 🛠 Tech Stack
+## Amazon Web Services
 
-### 👨‍💻 Languages
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+**Software Engineering Intern · Jun-Aug 2026**
 
-### ⚡ Backend & Databases
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
-![gRPC](https://img.shields.io/badge/gRPC-5C2D91?style=for-the-badge&logo=grpc&logoColor=white)
-
-### 🎨 Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)
-
-### ☁️ Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
-
-### 🤖 AI / ML
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/HuggingFace-FEBA0A?style=for-the-badge&logo=huggingface&logoColor=black)
-![LangChain](https://img.shields.io/badge/LangChain-00B86B?style=for-the-badge&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![Detectron2](https://img.shields.io/badge/Detectron2-FF6600?style=for-the-badge&logoColor=white)
+- Built application-consistent database cloning across multi-disk EBS volumes, reducing copies that took **hours to near-instant clones**.
+- Engineered failure-safe cloning while minimizing write disruption to live databases.
+- Built an AI diagnostic agent for on-call engineers that validates proposed root causes against observed evidence.
 
 ---
 
-## 🔨 Projects  
-_Things I’ve built and broken (and built again)_  
+## [Calve](https://github.com/aiskakov28/calve)
 
-### 📊 All · 🤖 ML · 🌐 Web · 🚀 Product · 📈 Data · 🔬 Research  
+**Distributed-systems correctness testing for Apache Iceberg REST catalogs**
 
----
+Calve sends concurrent commits through real catalog implementations, injects network and process failures, records the raw HTTP history, and replays that evidence offline against correctness models.
 
-### 🔬 [SimCityNet](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5369073) · Research  
-**Quantifying Geo-Cultural Bias in AI-Generated Urban Videos**  
-Interpretable embeddings to study how Sora & Kling AI reproduce cityscapes.  
+**6 workloads · 5 open-source catalogs · 6 fault types · standalone reproducers for every finding**
 
-**Stack:** Python · PyTorch · Mask2Former · DeepLabV3+ · DPT · YOLOv8 · OpenCV · NumPy · scikit-learn · SciPy/POT (EMD)  
-- Segmentation + depth + detection ensemble for interpretable city vectors  
-- Earth-Mover’s Distance to measure cross-city distribution shifts  
-- GPU-optimized batch inference pipeline on RTX 4090  
+### Selected impact
 
----
+- **Apache Iceberg / Hive:** reproduced an acknowledged lost-update bug where **both concurrent transactions return HTTP 200 but one update disappears** · [iceberg#18758](https://github.com/apache/iceberg/issues/18758)
+- **Lakekeeper:** found PostgreSQL lock-ordering failures causing **154-182 deadlocks per 200 concurrent commits** · [#2201](https://github.com/lakekeeper/lakekeeper/issues/2201) · maintainers adopted the table-row-first locking direction in [#2219](https://github.com/lakekeeper/lakekeeper/pull/2219)
+- **Apache Polaris:** traced a concurrency regression causing **up to 76% of commits to be rejected** instead of retried · [#5907](https://github.com/apache/polaris/issues/5907) · [my fix PR #5921](https://github.com/apache/polaris/pull/5921)
+- **Apache Iceberg:** found a JDBC namespace race leaking duplicate-key errors as HTTP 500 instead of 409 · [#18759](https://github.com/apache/iceberg/issues/18759) · [my fix PR #18760](https://github.com/apache/iceberg/pull/18760)
+- **Nessie:** isolated a concurrent request-context failure producing intermittent HTTP 500s · [#13271](https://github.com/projectnessie/nessie/issues/13271) · [maintainer fix #13275](https://github.com/projectnessie/nessie/pull/13275)
 
-### 🌐 [CampusLens.xyz](https://campuslens.xyz/) · Product  
-**Real-time campus occupancy & ops insights; AI signals in a fast dashboard**  
+### What Calve does
 
-**Stack:** React · Next.js · TypeScript · MySQL · gRPC · Docker · Kubernetes · Prefect  
-- Responsive SSR/ISR dashboard serving 2K+ DAUs  
-- Containerized ETL pipelines; auto-healing services on K8s  
-- Reduced load times by 73%  
+`concurrent workloads` → `network / process faults` → `raw HTTP histories` → `offline replay` → `VALID / INVALID / INCONCLUSIVE`
+
+Instead of assuming a timeout or HTTP 500 means failure, Calve preserves the operation as **unknown** until later evidence can prove what happened. Its checkers are tested against deliberately buggy catalog implementations before being trusted against real systems.
+
+[Explore the repository →](https://github.com/aiskakov28/calve)
 
 ---
 
-### 🚀 [Krunda.com](https://krunda.com/) · Startup  
-**Small-business web + analytics suite with production recommenders**  
+## Tools I work with
 
-**Stack:** Python · TensorFlow Recommenders · FastAPI · Redis · Elasticsearch · Oracle Cloud · Grafana · Optuna  
-- Recommendation API latency dropped from 8h → 30m  
-- Redis + Elasticsearch for sub-second personalized search  
-- Automated hyperparameter tuning with Optuna; monitoring via Grafana  
+**Languages:** Go · Java · Python · C++ · TypeScript · SQL · PowerShell
 
----
+**Cloud & infrastructure:** AWS (EC2, EBS, Lambda, SQS, EventBridge, CloudWatch) · Docker · Linux · Kafka · CI/CD
 
-### 🛠 [Jeli.AI](https://github.com/aiskakov28/jeli_ai) · Tooling  
-**AI assistant for LinkedIn outreach: drafts, schedules, and triages**  
+**Databases & search:** PostgreSQL · SQL Server · MySQL · Redis · Elasticsearch · pgvector · Apache Iceberg
 
-**Stack:** JavaScript · Next.js · Zustand · HTML · CSS · Playwright (E2E)  
-- State-machine UI for campaign flows  
-- Playwright CI ensures smooth onboarding & bulletproof flows  
+**Frameworks & tools:** Spring Boot · FastAPI · NestJS · React · Next.js · dbt · Playwright · Toxiproxy
+
+**Systems:** distributed systems testing · fault injection · concurrency · database internals
 
 ---
 
-### 📈 [Finance-Dash](https://github.com/aiskakov28/Company-Financial-Health-Assessment-Dashboard) · Analytics  
-**Exec-ready KPIs, anomaly detection & cash-flow trends**  
-
-**Stack:** Python · Pandas · dbt · Plotly Dash · PostgreSQL · AWS Lambda · CloudWatch  
-- dbt models feed curated marts; Lambda schedules auto-refresh  
-- Time-series anomaly detection + interactive dashboards  
-
----
-
-### 💡 [BTC Sentiment](https://github.com/aiskakov28/btc_news_sentiment_analysis) · Research  
-**Turning crypto headlines into tradable features**  
-
-**Stack:** Python · Hugging Face Transformers · VADER · Pandas · Streamlit  
-- Hybrid sentiment (lexicon + transformer) with time-decay aggregation  
-- Explorable sentiment vs price overlays in Streamlit  
-
----
-
-✨ _crafted with care · Abylay_
-
----
-
-## 📊 GitHub Stats
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=aiskakov28&show_icons=true&theme=tokyonight&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aiskakov28&layout=compact&theme=tokyonight"/>
-</p>
-
----
+Interested in **distributed systems, database/storage infrastructure, concurrency, and reliability engineering**.
